@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Future Advertise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <img src="assest/logo.png" alt="3D Future Advertise Logo" class="logo" />
+      <h1>3D_Future.Advertise</h1>
+      <p class="tagline">Bringing your brand to life with next-gen hologram displays.</p>
+    </div>
+  </section>
+
+  <!-- About Company Section -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <h2>About Company</h2>
+      <p>
+        At <strong>3D Future Advertise</strong>, we revolutionize advertising with immersive holographic fan displays that captivate audiences.
+        Our cutting-edge technology transforms traditional marketing into a stunning 3D visual experience that demands attention.
+      </p>
+    </div>
+  </section>
+
+
+<!-- logo projector Section -->
+  <section id="logop" class="logop-section">
+    <div class="about-content">
+      <h2> LOGO PROJECTOR</h2>
+      <p>
+        Supports both <strong>Rotation</strong> and <strong>Static</strong> projection modes.
+        <strong>Adjustable lens</strong> for precise focus and projection distance control.<br>
+        High brightness and sharp imaging even in ambient lighting.
+        Energy-efficient LED lamp for long operational life.<br>
+        Compact, durable, and easy to install on walls, ceilings, or stands.
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/logop-1.png" alt="Image 1" class="image-box">
+      <img src="assest/logop-2.png" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/logop-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+    <div class="product-buttons">
+      <button class="btn view-sizes" onclick="togglePopup('popup-1')">1-Slide</button>
+      <button class="btn view-sizes" onclick="togglePopup('popup-2')">4-Slide</button>
+    </div>
+    <div id="popup-1" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-1')">&times;</span>
+        <p>
+          <li>15 Watt (Range 10-12ft)</li>
+          <li>35 Watt (Range 12-15ft)</li>
+          <li>60 Watt (Range 15-20ft)</li>
+          <li>80 Watt (Range 25-30ft)</li>
+          <li>100 Watt (Range 30-35ft)</li>
+          <li>200 Watt (Range 50-70ft)</li>
+          <li>300 Watt (Range 70-90ft)</li>
+          <li>500 Watt (Range 100-120ft)</li>
+          <li>600 Watt (Range 120-150ft)</li>
+        </p>
+
+      </div>
+    </div>
+
+    <div id="popup-2" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-2')">&times;</span>
+        <p>
+          <li>50 Watt (Range 25-30ft)</li>
+          <li>100 Watt (Range 30-35ft)</li>
+          
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+<!-- hologram fan Section -->  
+<section id="holof" class="holof-section">
+    <div class="about-content">
+      <h2> HOLOGRAM FAN</h2>
+      <p>
+        The 3D Hologram Fan creates stunning floating visuals that grab attention instantly.
+        With Wi-Fi connectivity and a mobile app, <br>you can easily change designs or upload new content in seconds. 
+        It’s remote controllable, giving you full command of playback and settings<br> without touching the device. 
+        Compact, easy to install, and visually striking — perfect for stores, events, and digital advertising.
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/holof-1.png" alt="Image 1" class="image-box">
+      <img src="assest/holof-2.png" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/holof-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+    <div class="product-buttons">
+      <button class="btn view-sizes" onclick="togglePopup('popup-3')">2-Blades</button>
+      <button class="btn view-sizes" onclick="togglePopup('popup-4')">4-Blades</button>
+    </div>
+    <div id="popup-3" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-3')">&times;</span>
+        <p>
+          <li>42cm</li>
+          <li>50cm</li>          
+        </p>
+
+      </div>
+    </div>
+
+    <div id="popup-4" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-4')">&times;</span>
+        <p>
+          <li>45cm</li>
+          <li>52cm</li>
+          <li>60cm</li>
+          <li>65cm</li>
+          <li>80cm</li>
+          <li>90cm</li>
+          <li>100cm</li>
+          
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+<!-- flexible display Section -->  
+<section id="flexid" class="flexid-section">
+    <div class="about-content">
+      <h2> FLEXIBLE DISPLAY</h2>
+      <p>
+        The Flexible LED Display lets you bend, shape, and mount it anywhere for creative, dynamic visuals.<br>
+        With Bluetooth connectivity and app-based control, you can easily customize colors, patterns, and animations in real time.<br> 
+        Lightweight yet durable, it’s perfect for events, signage, and interior decor that need bold, adaptable lighting
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/flexid-1.png" alt="Image 1" class="image-box">
+      <img src="assest/flexid-2.jpg" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/flexid-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+    <div class="product-buttons">
+      <button class="btn view-sizes" onclick="togglePopup('popup-5')">View Sizes</button>
+    </div>
+    <div id="popup-5" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-5')">&times;</span>
+        <p>
+          <li>7*17cm</li>
+          <li>9.3*37.4cm</li>
+          <li>10.2*35.4cm</li>
+          <li>12*59.5cm</li>
+          <li>20*89cm</li>          
+        </p>
+
+      </div>
+    </div>
+  </section>
+  
+<!-- lolipop flange Section -->  
+<section id="lolif" class="lolif-section">
+    <div class="about-content">
+      <h2> LOLIPOP FLANGE</h2>
+      <p>
+        This double-sided, circular illuminated sign board is designed for maximum,360-degree brand visibility, day or night.<br> 
+        It features bright, energy-efficient LED lighting encased within a durable, weather-resistant acrylic frame to ensure longevity and low power consumption.<br> 
+        The sleek, modern design provides a professional, eye-catching focal point perfect for storefronts, reception areas, or point-of-sale displays. 
+        Easily customizable with any logo or message, this sign is an effective, premium tool for instantly attracting customer attention and reinforcing brand identity.
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/lolif-1.png" alt="Image 1" class="image-box">
+      <img src="assest/lolif-2.png" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/lolif-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+    <div class="product-buttons">
+      <button class="btn view-sizes" onclick="togglePopup('popup-6')">Round</button>
+      <button class="btn view-sizes" onclick="togglePopup('popup-7')">Square</button>
+      <button class="btn view-sizes" onclick="togglePopup('popup-8')">Rotate</button>
+    </div>
+    <div id="popup-6" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-6')">&times;</span>
+        <p>
+          <li>18"</li>
+          <li>24"</li>          
+        </p>
+
+      </div>
+    </div>
+
+    <div id="popup-7" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-7')">&times;</span>
+        <p>
+          <li>18*18"</li>
+          <li>24*24"</li>
+          
+        </p>
+
+      </div>
+    </div>
+
+    <div id="popup-8" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-8')">&times;</span>
+        <p>
+          <li>18*18"</li>
+          <li>24*24"</li>
+          
+        </p>
+
+      </div>
+    </div>
+  </section>  
+
+<!-- Standee Section -->  
+<section id="standee" class="standee-section">
+    <div class="about-content">
+      <h2> STANDEE</h2>
+      <p>
+        The Digital Standee Display is a modern, high-impact solution for advertising and promotions.<br> 
+        Featuring a vivid LED panel with a 10000:1 contrast ratio and 16:9 aspect ratio, it delivers crystal-clear visuals that stand out anywhere.<br> 
+        With 1/4GB internal storage and dual USB ports, uploading and managing content is quick and simple.<br> 
+        Built-in speakers enhance your message with sound, making it perfect for retail, events, and corporate spaces.
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/standee-1.png" alt="Image 1" class="image-box">
+      <img src="assest/standee-2.png" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/standee-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+    <div class="product-buttons">
+      <button class="btn view-sizes" onclick="togglePopup('popup-9')">A-type</button>
+      <button class="btn view-sizes" onclick="togglePopup('popup-10')">L-type</button>
+    </div>
+    <div id="popup-9" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-3')">&times;</span>
+        <p>
+          <li>32"</li>
+          <li>43"</li>          
+        </p>
+
+      </div>
+    </div>
+
+    <div id="popup-10" class="popup_box">
+      <div class="popup_content">
+        <span class="close_btn" onclick="togglePopup('popup-4')">&times;</span>
+        <p>
+          <li>32"</li>
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+<!-- RGB lights Section -->  
+<section id="rgbl" class="rgbl-section">
+    <div class="about-content">
+      <h2> RGB LIGHTS </h2>
+      <p>
+        <h4>1. RGB Light Strip</h4>
+          <p>Transform any space with vibrant, dynamic lighting. 
+          Control colors, brightness, and effects directly from the app for full customization.<br> 
+          Perfect for gaming setups, bedrooms, or creative displays.</p>
+
+        <h4>2. RGB Light Bar</h4>
+          <p>Upgrade your desk or TV setup with immersive backlighting. 
+          App connectivity lets you personalize every hue and animation for the perfect <br>mood or ambience. 
+          Sleek, powerful, and built for visual impact.</p>
+
+        <h4>3. RGB LED Light Curtain</h4>
+         <p> Create a stunning backdrop with fully customizable lighting effects. 
+          Sync colors and motion through the app to match your vibe or event theme.<br>
+          Ideal for streaming, parties, or room décor.</p>  
+       </p>   
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/rgbl-1.jpeg" alt="Image 1" class="image-box">
+      <img src="assest/rgbl-2.jpeg" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/rgbl-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+  </section> 
+  
+<!-- Car Accessories Section -->  
+<section id="cara" class="cara-section">
+    <div class="about-content">
+      <h2> CAR ACCESSORIES </h2>
+      <p>
+        <h4>1.Car Action Figure</h4>
+            <p>Show off your passion for cars with this premium metal action figure. 
+            Built entirely from durable alloy for a solid, high-end finish.<br> 
+            Perfect for wall hanging or car desk display—adds character and power to any space.</p>
+        <h4>2.Digital Fog Lamp for Cars</h4>
+            <p>Upgrade your ride with next-gen digital fog lamps featuring full app connectivity. 
+            Customize brightness, color, and patterns straight <br>from your phone for total control.
+            Engineered for sharp visibility, bold style, and a modern tech edge on the road.</p>
+        <h4>3.Digital LED Eye Light for Cars & Bikes</h4>
+            <p>Give your ride a fierce, futuristic look with app-controlled LED Eye Lights. 
+            Customize colors, brightness, and effects right <br>from your phone for a unique signature style. 
+            Built for high visibility, durability, and pure visual impact on the road.</p>
+        <h4>4.Square LED Display</h4>
+            <p>Turn your car into a statement piece with this app-controlled square LED display. 
+            Mount it on the front or rear glass to show custom texts, <br>animations, or symbols from your phone. 
+            Smart, durable, and built for drivers who want visibility and personality on the road.</p>        
+
+      </p>  
+    </div>
+
+    <div class="container">
+    <!-- Left side: two stacked images -->
+    <div class="image">
+      <img src="assest/cara-1.jpeg" alt="Image 1" class="image-box">
+      <img src="assest/cara-2.png" alt="Image 2" class="image-box">
+    </div>
+
+    <!-- Right side: video -->
+    <div class="video">
+      <video class="video-box" controls>
+        <source src="assest/cara-3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+    
+  </section>  
+
+<!-- Contact Us Section -->  
+<section class="contact-us">
+    <h2>Contact-Us</h2>
+    <div>
+      <div class="address">
+        <img src="assest/location_logo.png"/>
+        <p> 202,Sun point Complex,Opp.Narayan Petrol Pump<br>
+          Vadodara-Gujarat          
+        </p>
+      </div>
+      <div class="mobile_no">
+        <img src="assest/call_logo.png"/>
+        <p> +91 9106995434</p>
+      </div>
+      <div class="email">
+        <img src="assest/email_logo.png"/>
+        <p> 3d.futureadvertise@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="sm_n">
+      <h4>Social Media</h4>
+    </div>
+    <div class="social-section">
+          
+          <div class="social-icons">
+            <a href="https://wa.me/91910699543" target="_blank" class="circle">
+              <img src="assest/whatsapp_logo.png" alt="whatsapp" style="width:40px; height:40px; object-fit:cover;">
+            </a>
+            <a href="https://www.instagram.com/3d_future.ads?igsh=dnBrdW9ucDNmYXhk" target="_blank" class="circle">
+              <img src="assest/insta_logo.png" alt="Instagram" style="width:40px; height:40px; object-fit:cover;">
+            </a>
+            <a href="https://whatsapp.com/channel/0029VbBD8fh9hXEx6Spanw1O" target="_blank" class="circle">
+              <img src="assest/whatsapp_comm_logo.png" alt="Instagram" style="width:40px; height:40px; object-fit:cover;">
+            </a>
+          </div>
+    </div>
+</section>
+<!-- Button Toggle logic-->
+<script>
+    function togglePopup(id) {
+      // Get all popups
+      const allPopups = document.querySelectorAll('.popup_box');
+
+      // Close all popups first
+      allPopups.forEach(p => {
+        if (p.id !== id) p.style.display = "none";
+      });
+
+      // Toggle the clicked one
+      const popup = document.getElementById(id);
+      popup.style.display = (popup.style.display === "flex") ? "none" : "flex";
+    }
+  </script>
+</body>
+</html>
