@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap: https://3dfuturesadvertise.github.io/sitemap.xml
